@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c4355069a32ab4693caabe6571c8c5, type: 3}
+  m_Name: LocalizationData
+  m_EditorClassIdentifier: 
+  texts:
+  - key: good morning
+    translations:
+    - language: English
+      text: good morning
+    - language: French
+      text: "buen d\xEDa"
+    - language: Spanish
+      text: bonjour
+  - key: what is your name?
+    translations:
+    - language: English
+      text: what is your name?
+    - language: French
+      text: quel est ton nom ?
+    - language: Spanish
+      text: "\xBFc\xF3mo te llamas?"
+  - key: who are you?
+    translations:
+    - language: English
+      text: who are you?
+    - language: French
+      text: qui es-tu ?
+    - language: Spanish
+      text: "\xBFqui\xE9n eres?"
+  - key: where are you from?
+    translations:
+    - language: English
+      text: where are you from?
+    - language: French
+      text: "d'o\xF9 venez-vous?"
+    - language: Spanish
+      text: "\xBFde d\xF3nde eres?"
+  - key: breaker of code
+    translations:
+    - language: English
+      text: breaker of code
+    - language: French
+      text: briseur de code
+    - language: Spanish
+      text: "descifrador de c\xF3digo"
